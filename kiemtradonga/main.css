@@ -1,0 +1,70 @@
+.slide-page ol li {
+    border-radius: 50%;
+    padding: 5px 5px;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.image-small {
+    position: absolute;
+}
+
+.carousel-caption {
+    position: absolute;
+}
+
+.detail-slide {
+    position: absolute;
+    top: 170px;
+    left: 200px;
+    color: white;
+}
+
+.detail-slide li {
+    list-style: outside;
+    padding: 5px 0px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+    color: #00008b;
+    font-weight: 700;
+}
+.img-note{
+    float: left;
+}
+.title-note{
+    float: left;
+}
+.price-iphone .zoom{
+    transition: transform .3s;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}
+.price-iphone h5{
+    margin-top: 10px;
+
+}
+.fa-star:before {
+    color: darklight;
+    content: "\f005";
+    margin-right: 10px;
+    color: yelow;
+    color: #8d8d16;
+}
+.detail-protect li{
+    padding: 10px 5px;
+    border-bottom: 0.5px solid #5c5b5b2e;
+    width: 100%;
+}
+input{
+    width: 100%;
+    height: 40px;
+    background: #eae5e536;
+    border: none;
+    margin-bottom: 10px;
+}
